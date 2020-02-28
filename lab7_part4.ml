@@ -103,9 +103,9 @@ following strings pushed in order: `"Computer"`, `"Science"`, `"51"`.
 ......................................................................*)
 
 let sample_stack () = 
-	Stack.push "Computer" 
+	Stack.push "51" 
 	(Stack.push "Science"
-	(Stack.push "51"
+	(Stack.push "Computer"
 	Stack.empty));;
 
 (*......................................................................
